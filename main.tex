@@ -1,0 +1,172 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{tcolorbox}
+\usepackage{mathabx}
+\usepackage{wasysym}
+\usepackage{physics}
+\usepackage{gensymb}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+
+
+\tcbset{%
+	colback=white,
+	colframe=black,
+	}
+
+\pagestyle{headings}
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+ 
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstset{language=Matlab,%
+	%basicstyle=\color{red},
+	breaklines=true,%
+	morekeywords={matlab2tikz},
+	keywordstyle=\color{blue},%
+	morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+	identifierstyle=\color{black},%
+	stringstyle=\color{mylilas},
+	commentstyle=\color{mygreen},%
+	showstringspaces=false,%without this there will be a symbol in the places where there is a space
+	numbers=left,%
+	numberstyle={\tiny \color{black}},% size of the numbers
+	numbersep=9pt, % this defines how far the numbers are from the text
+	emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+	%emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+\setlength{\parskip}{0.05in}
+
+\pagestyle{fancyplain}
+\headheight 35pt
+\lhead{\NetIDa}
+\lhead{\NetIDa\\\NetIDb}                 % <-- Comment this line out for problem sets (make sure you are person #1)
+\chead{\textbf{\Large SSL SHOP REQUIREMENT DETAILS \hwnumber}}
+\rhead{\course \\ \today}
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+Welcome to the Space Systems Laboratory shop training requirements. In each of the below categories you will find details about not only the general pre-training requirements, but also the requirements for the training processes on each machine. The general shop training and ALL of the ESSR training courses must be completed before any of the numbered items can be operated even in training. Upon completion of both of these sections, individuals are allowed to work with all of the basic hand tools including items such as: Hammers, screwdrivers, sandpaper, drills, impact drivers, ratchets, wrenches, handsaws, and any of the other hand-tools introduced during the training.
+
+\section*{General Shop Training}
+
+The general shop training is about a one hour walk through of the shop, pointing out all of the machines, potential safety hazards, as well as introducing all hand tools that are free to use without additional training. After the training has been completed, the shop manager who gave the tour will sign and date the training sheet. This sheet has been attached at the end of this document. Feel free to print it out ahead of time and fill out all of your personal information. A picture is required, but does not have to be in color. It can be pasted or stapled on top of the sheet, or feel free to put it digitally onto the sheet when/if you print it out. If you do not print it out before, we have a few extras that you can fill out here. 
+
+In order for your sheet to be signed off on any of the nine tool categories listed below, independent proficiency must be demonstrated in safe manners. This means that a representative task is performed safely and successfully, and the operator knows most if not all of the possible functions of the machine and how to safely use them. Items regarding machine maintenance such as replacing belts, blades, wheels, and other consumables will not be required. 
+
+
+\section*{Online ESSR Training}
+The following 5 training modules are required to be completed and printouts must be accompanied with your training sheet at all times work is to be completed in the shop. The trainings can be found \href{https://essr.umd.edu/training}{\textcolor{blue}{here}}
+\begin{itemize}
+    \item Chemical Hygiene
+    \item Crane and Hoist Safety
+    \item Cylinder HazMat and Fill Station Technician Training
+    \item Safe Handling and Use of Cryogenic Liquids
+    \item Universal Waste
+\end{itemize}
+
+
+\section{Power Saws}
+The shop has two saws, one for wood and one for aluminum. The blue INSERT MANUFACTURER HERE saw can be used for cutting wood, and has an 
+
+\section{Drill Press}
+
+The SSL's Drill Press (pictured below) can be used to drill, ream, and counterbore holes with the correct tooling in a variety of materials. No milling of any material is possible on the drill press. During your training on using the drill press you will learn about different kinds of twist drills, reamers, as well as relative speeds, concepts of spotting, and holding the work piece safely. 
+
+\section{Band Saws}
+
+\subsection{Vertical Bandsaw}
+
+
+
+\subsection{Horizontal Bandsaw}
+
+A Kalamazoo Horizontal Bandsaw is used generally for cutting larger and thicker pieces of steel more squarely than a human can cut easily on (our) vertical bandsaw. This is simply due to the necessity that the part is locked into a fixed position and the blade automatically cuts from above using a pneumatic suspension system. There are vertical bandsaws that have similar features (usually moving the work piece instead) but we do not own one.
+
+The key details of this machine to keep in mind when operating are fixturing, blade speed, and coolant/lubrication. 
+
+\subsubsection{Fixturing}
+
+On the Kalamazoo Horizontal Bandsaw there are two main fixturing components, the extended rest and the clamp, both of which can be configured to suit the piece of stock in an apt manner. 
+
+\section{Sheet Metal Tools}
+
+\subsection{Nibbler}
+
+\subsection{Press Break}
+
+\subsection{Bender}
+
+
+
+\section{Grinding and Sanding}
+
+\section{Milling Machines}
+The SSL has three Bridgeport Series 1 Milling Machines in total. Only one of which is a CNC machine, and currently is running EZ-Trak 2 DX-Trak software from 1994. 
+\href{https://autode.sk/2Bfp6qI}{\textcolor{blue}{Click here for a basic intro to machine tools.}}
+
+
+\subsection{Manual Machines}
+Each of the manual machines (2) have different beds. The first machine has the standard Cast Iron bed for traditional fixturing of pieces, and an aluminum bed with some varying fixturing capabilities. Being trained and able to run these machines fully independently of outside guidance is a requirement before CNC training can occur. This is a long process, and often takes months of work, but during this time we will be helping you make parts for your project.
+
+The training regimen for each of these machines requires you to have pieces that you need to be made. This means that you have completed at minimum full mechanical drawings, and that you are bringing appropriately sized stock to machine. Our goal in doing this is to create the most productive use of time for all parties involved, and the best way to ensure that is to have you work on parts on your project. This applies to manual mill, CNC mill, and lathe trainings. 
+
+The training process for these two machines follows the "EDGE: Educate, Demonstrate, Guide, and Enable" strategy of education. In the beginning of the trainings we attempt to educate you about the various aspects of machining, and request that you complete research of your own outside of our sessions. This step is to help you get familiar with items and concepts of machining such as "Speeds and feeds" as well as machine tool details and common machining knowledge. We then demonstrate machine techniques and show you how to operate the machine with items such as properly inserting tools, finding edges accurately, and work holding techniques. We slowly give you more and more responsibilities as we go through more and more sessions and eventually you will have the capability of producing parts independently. (This does not mean you can work in the shop by yourself- this simply means you no longer require over-the-shoulder guidance to make a part accurately.) After you have reached this point, we can then enable your part creation to proceed further with CNC capabilities.  \\
+
+\href{https://autode.sk/2Bfp6qI}{\textcolor{blue}{Click here for a basic intro to machine tools.}} \\
+
+The main topics we cover in our trainings include but are not limited to:
+\begin{itemize}
+    \item Tool selection
+    \item Tool holding
+    \item Part holding
+    \item Edge finding
+    \item Climb/conventional milling
+    \item Drawing translation
+    \item Machine operations
+    \item Common machine errors
+    \item Roughing vs. Finishing
+    \item Speeds and Feeds
+    \item Emergency preparedness
+\end{itemize}
+
+
+\subsection{Computer Numerically Controlled Machine}
+
+After you have successfully demonstrated your manual milling machining proficiency, we can begin to show you how to control the CNC through CAM. Fusion 360 is the CAM generator of choice for this laboratory, and learning how to set up parts, generate full tool paths, and adapt the G-code to this machine are the biggest steps in this training. We request that you do some research yourself about generating tool paths in Fusion 360 before we begin training, and when you come to begin your training we request that you bring your first attempt at generating full CAM for your part. We will sit down and go through it with you, however it's important that you understand how the software first to make the training sessions as productive and beneficial for both parties as possible. \\
+
+The time it takes to reach a point of independent ability on the CNC is a long process. It is important that you understand that if you are coming in with no experience, it may take months to reach this point. We want to make this abundantly clear, however, if you are coming in with previous CNC or manual mill expeience this process can be expedited. 
+
+\section{Lathe}
+
+The SSl has a Hardinge manual lathe. Learning to use this lathe is very similar to the process for getting trained on the milling machines, usually stemming from project experience. If you have a part you desire to make for your project, we are more than willing to help you create that part and learn during that process with some hands-on turning, however full checkout on this machine takes lots of time and practice and should be approached as such. 
+
+\section{Welding}
+Our shop has limited welding capabilities. Welding training is only granted on a per-need basis. It is often much faster to have an individual who is already a trained welder to complete any welding on a project, however for most SSL related projects welding should only be used when absolutely necessary. Please contact me if you have questions about this: channer@ssl.umd.edu
+
+\section{Plasma Cutting}
+Plasma cutting follows a similar trend to welding - if it is needed we only use it on a case-by-case basis so please contact us if you need to use it: channer@ssl.umd.edu
+
+
+
+\end{document}
